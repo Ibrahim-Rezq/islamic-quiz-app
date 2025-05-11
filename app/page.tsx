@@ -1,11 +1,8 @@
 'use client'
-import { useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
 export default function HomePage() {
- 
-
     return (
         <div className='bg-base-100 min-h-screen flex flex-col'>
             {/* Navbar */}
@@ -315,8 +312,9 @@ export default function HomePage() {
                                     Multiple Difficulty Levels
                                 </h3>
                                 <p>
-                                    Whether you're a beginner or scholar, choose
-                                    difficulty levels that match your knowledge.
+                                    Whether you`&apos;`re a beginner or scholar,
+                                    choose difficulty levels that match your
+                                    knowledge.
                                 </p>
                             </div>
                         </div>
@@ -463,7 +461,10 @@ export default function HomePage() {
                             </div>
 
                             <div className='mt-8'>
-                                <Link href='/quiz/select' className='btn btn-primary'>
+                                <Link
+                                    href='/quiz/select'
+                                    className='btn btn-primary'
+                                >
                                     Start Learning Now
                                 </Link>
                             </div>
@@ -543,7 +544,7 @@ export default function HomePage() {
                                             </div>
                                         </div>
                                     </div>
-                                    <p>"{testimonial.comment}"</p>
+                                    <p>`&quot;`{testimonial.comment}`&quot;`</p>
                                 </div>
                             </div>
                         ))}

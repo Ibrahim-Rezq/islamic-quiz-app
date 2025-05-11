@@ -1,6 +1,6 @@
 // /hooks/useQuiz.ts
+import { Question } from '@prisma/client'
 import { create } from 'zustand'
-import type { Question } from '@/types/question'
 
 type QuizState = {
     currentQuestionIndex: number
