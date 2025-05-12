@@ -5,8 +5,8 @@ generator client {
 }
 
 datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.db"
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 model Category {
@@ -18,9 +18,7 @@ model Category {
 model Question {
   id         String     @id @default(uuid())
   text       String
-  // TODO: Use a [] type for options when changing to a postgres database
-  // options    String[]  // SQLite does not support lists of primitive types
-  options    Json
+  options    String[]
   correct    String
   difficulty Difficulty
   categoryId String

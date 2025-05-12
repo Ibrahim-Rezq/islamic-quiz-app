@@ -5,11 +5,17 @@ import { QuizClientPage } from './client'
 export default async function QuizPage({
     params,
 }: {
-    params: { category: string; difficulty: string }
+    params: Promise<{ category: string; difficulty: string }>
 }) {
+    const {
+        category,
+        // TODO: Uncomment when difficulty is implemented
+        //    ,difficulty
+    } = await params
     const questions = await getRandomQuestions(
-        params.category,
-        params.difficulty
+        category
+        // TODO: Uncomment when difficulty is implemented
+        // params.difficulty
     )
     if (!questions || questions.length === 0) {
         return <div>No questions available. Please try again later.</div>

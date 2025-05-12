@@ -13,107 +13,82 @@ async function main() {
                 create: [
                     {
                         text: 'What is the SI unit of force?',
-                        options: JSON.stringify([
-                            'Newton',
-                            'Joule',
-                            'Watt',
-                            'Pascal',
-                        ]),
+                        options: ['Newton', 'Joule', 'Watt', 'Pascal'],
                         correct: 'Newton',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'Speed = ?',
-                        options: JSON.stringify([
+                        options: [
                             'Distance/Time',
                             'Mass*Accel',
                             'Time*Distance',
-                        ]),
+                        ],
                         correct: 'Distance/Time',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'Who proposed the laws of motion?',
-                        options: JSON.stringify([
-                            'Newton',
-                            'Einstein',
-                            'Galileo',
-                            'Tesla',
-                        ]),
+                        options: ['Newton', 'Einstein', 'Galileo', 'Tesla'],
                         correct: 'Newton',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'Which quantity has both magnitude and direction?',
-                        options: JSON.stringify([
-                            'Scalar',
-                            'Vector',
-                            'Speed',
-                            'Mass',
-                        ]),
+                        options: ['Scalar', 'Vector', 'Speed', 'Mass'],
                         correct: 'Vector',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'What is the speed of light in vacuum?',
-                        options: JSON.stringify([
+                        options: [
                             '3x10^8 m/s',
                             '1.5x10^8 m/s',
                             '3x10^6 m/s',
                             'None',
-                        ]),
+                        ],
                         correct: '3x10^8 m/s',
                         difficulty: 'MEDIUM',
                     },
                     {
                         text: 'Work = ?',
-                        options: JSON.stringify([
+                        options: [
                             'Force × Distance',
                             'Power × Time',
                             'Energy / Time',
-                        ]),
+                        ],
                         correct: 'Force × Distance',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'Which law states F = ma?',
-                        options: JSON.stringify([
+                        options: [
                             'Newton’s Second Law',
                             'Ohm’s Law',
                             'Hooke’s Law',
-                        ]),
+                        ],
                         correct: 'Newton’s Second Law',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'Electric current is measured in?',
-                        options: JSON.stringify([
-                            'Amperes',
-                            'Volts',
-                            'Watts',
-                            'Coulombs',
-                        ]),
+                        options: ['Amperes', 'Volts', 'Watts', 'Coulombs'],
                         correct: 'Amperes',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'Power = ?',
-                        options: JSON.stringify([
+                        options: [
                             'Work / Time',
                             'Energy × Time',
                             'Voltage / Current',
-                        ]),
+                        ],
                         correct: 'Work / Time',
                         difficulty: 'MEDIUM',
                     },
                     {
                         text: 'Unit of frequency?',
-                        options: JSON.stringify([
-                            'Hertz',
-                            'Tesla',
-                            'Joule',
-                            'Ampere',
-                        ]),
+                        options: ['Hertz', 'Tesla', 'Joule', 'Ampere'],
                         correct: 'Hertz',
                         difficulty: 'EASY',
                     },
@@ -129,13 +104,13 @@ async function main() {
                 create: [
                     {
                         text: 'What is 5 + 7?',
-                        options: JSON.stringify(['12', '10', '11', '13']),
+                        options: ['12', '10', '11', '13'],
                         correct: '12',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'What is the derivative of x²?',
-                        options: JSON.stringify(['2x', 'x', 'x²', '1']),
+                        options: ['2x', 'x', 'x²', '1'],
                         correct: '2x',
                         difficulty: 'MEDIUM',
                     },
@@ -151,18 +126,18 @@ async function main() {
                 create: [
                     {
                         text: 'H2O is the chemical formula for?',
-                        options: JSON.stringify([
+                        options: [
                             'Water',
                             'Hydrogen Peroxide',
                             'Hydrogen',
                             'Oxygen',
-                        ]),
+                        ],
                         correct: 'Water',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'Atomic number of Carbon?',
-                        options: JSON.stringify(['6', '12', '8', '10']),
+                        options: ['6', '12', '8', '10'],
                         correct: '6',
                         difficulty: 'EASY',
                     },
@@ -178,18 +153,18 @@ async function main() {
                 create: [
                     {
                         text: 'How many daily prayers are there in Islam?',
-                        options: JSON.stringify(['5', '3', '2', '7']),
+                        options: ['5', '3', '2', '7'],
                         correct: '5',
                         difficulty: 'EASY',
                     },
                     {
                         text: 'Who is the final prophet in Islam?',
-                        options: JSON.stringify([
+                        options: [
                             'Muhammad ﷺ',
                             'Isa (Jesus)',
                             'Musa (Moses)',
                             'Ibrahim (Abraham)',
-                        ]),
+                        ],
                         correct: 'Muhammad ﷺ',
                         difficulty: 'EASY',
                     },
